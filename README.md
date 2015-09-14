@@ -12,3 +12,7 @@ Thus the Monty Python's [Holy Hand Granade sketch](https://www.youtube.com/watch
 
 [1] Hartmann, W.K., 2005. Martian cratering 8: Isochron refinement and the chronology of Mars. Icarus, 174, 294-320.
 
+## Authors
+The aim of this project of conquer the world comes from mixed ideas and code from Dr. Alessandro Frigeri and Yann Chemin. If you are willing to jump into the project, the doors are open!
+
+
