@@ -1,7 +1,7 @@
 # HHG
 HHG - Crater survey tool for crater counting
 
-# Rationale behing the name of the project
+# Rationale behind the name of the project
 
 Crater counting is a method for estimating the age of a planet's surface. The method is based upon the assumptions that a new surface forms with zero impact craters, and that impact craters accumulate at some constant rate. The method has been calibrated using the ages of samples returned from the Moon [1], and then used on several planetary surfaces.
 
