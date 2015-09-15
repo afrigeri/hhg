@@ -2,7 +2,7 @@ import pylab as plt
 from osgeo import gdal
 gdal.UseExceptions()
 
-ds = gdal.Open('LO_22S337_CKSPK_subset.tif')
+ds = gdal.Open('../data/LO_22S337_CKSPK_subset.tif')
 band = ds.GetRasterBand(1)
 elevation = band.ReadAsArray()
 
