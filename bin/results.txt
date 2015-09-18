@@ -1,0 +1,15 @@
+button=1, x=1063, y=1289, xdata=-21.941490, ydata=-33.571708
+button=1, x=1104, y=1305, xdata=-21.777721, ydata=-33.507798
+button=1, x=900, y=1474, xdata=-22.592574, ydata=-32.832749
+button=1, x=869, y=1469, xdata=-22.716399, ydata=-32.852721
+button=1, x=1156, y=979, xdata=-21.570013, ydata=-34.809965
+button=1, x=1055, y=957, xdata=-21.973445, ydata=-34.897841
+button=1, x=871, y=930, xdata=-22.708411, ydata=-35.005689
+button=1, x=891, y=930, xdata=-22.628523, ydata=-35.005689
+button=1, x=632, y=805, xdata=-23.663066, ydata=-35.504986
+button=1, x=527, y=831, xdata=-24.082476, ydata=-35.401133
+button=1, x=1008, y=329, xdata=-22.161181, ydata=-37.406309
+button=1, x=904, y=295, xdata=-22.576596, ydata=-37.542118
+button=1, x=421, y=188, xdata=-24.505880, ydata=-37.969516
+button=1, x=486, y=206, xdata=-24.246245, ydata=-37.897618
+
