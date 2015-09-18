@@ -49,7 +49,7 @@ while (i+1 < b.shape[0]):
 	bufferDistance = np.sqrt(pow(x2-x1,2)+np.sqrt(pow(y2-y1,2)))
 	print( bufferDistance)
 	poly = pt.Buffer(bufferDistance)
-	print( "%s buffered by %d is %s" % (pt.ExportToWkt(), bufferDistance, poly.ExportToWkt()))
+	print( "%s buffered by %.3f is %s" % (pt.ExportToWkt(), bufferDistance, poly.ExportToWkt()))
 	#Make sure we skip to the next tuple
 	i = i+2
 	##Now import it into a shapefile
