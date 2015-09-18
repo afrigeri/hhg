@@ -14,7 +14,7 @@
 ####################
 
 import numpy as np
-b = np.genfromtxt(r'results.txt', delimiter=',', names=True, dtype=None)
+b = np.genfromtxt(r'results.txt', delimiter=',', dtype=None)
 print( b[0][3].split('=')[-1], b[0][4].split('=')[-1])
 print( b.shape[0] )
 
