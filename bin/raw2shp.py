@@ -22,7 +22,7 @@ print( b.shape[0] )
 import os, osgeo.ogr, osgeo.osr
 sr = osgeo.osr.SpatialReference()
 #Assumes Geo lat/long wgs84
-sr.ImportFromEPSG(3148)
+sr.ImportFromEPSG(4326)
 #Export to Shapefile called craters.shp
 driver = osgeo.ogr.GetDriverByName('ESRI Shapefile')
 if os.path.exists('craters.shp'):
@@ -47,7 +47,6 @@ while (i+1 < b.shape[0]):
 	wkt = "POINT (" + str(x1) +" " + str(y1) + ")"
 	pt = osgeo.ogr.CreateGeometryFromWkt(wkt)
 	bufferDistance = np.sqrt(pow(x2-x1,2)+np.sqrt(pow(y2-y1,2)))
-	print( bufferDistance)
 	poly = pt.Buffer(bufferDistance)
 	print( "%s buffered by %.3f is %s" % (pt.ExportToWkt(), bufferDistance, poly.ExportToWkt()))
 	#Make sure we skip to the next tuple
