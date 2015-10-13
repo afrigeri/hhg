@@ -1,8 +1,15 @@
+import sys
 import pylab as plt
 from osgeo import gdal
 gdal.UseExceptions()
 
-ds = gdal.Open('../data/LO_22S337_CKSPK_subset.tif')
+#if using a valid input file argument, then react accordingly
+try:
+	ds = gdal.Open(sys.argv[1])
+except:
+	print("No valid input file found, using example")
+	ds = gdal.Open('../data/LO_22S337_CKSPK_subset.tif')
+
 band = ds.GetRasterBand(1)
 elevation = band.ReadAsArray()
 

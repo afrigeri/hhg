@@ -12,4 +12,3 @@ button=1, x=1008, y=329, xdata=-22.161181, ydata=-37.406309
 button=1, x=904, y=295, xdata=-22.576596, ydata=-37.542118
 button=1, x=421, y=188, xdata=-24.505880, ydata=-37.969516
 button=1, x=486, y=206, xdata=-24.246245, ydata=-37.897618
-
